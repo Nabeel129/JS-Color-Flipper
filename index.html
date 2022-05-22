@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper || Hex Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="left">
+            <p>Color Flipper</p>
+        </div>
+        <div class="right">
+            <p class="right1" onclick="simple()"> Simple</p>
+            <p class="right2" onclick="hex()">Hex</p>
+        </div>
+    </div>
+    <div class="container" id="bkgr">
+        <div class="mainbox">
+            <section class="ColorCode">
+                <p><b> Background Color : <span class="color">#F1F5F8</span> </b></p>
+            </section>
+            <section class="button">
+                <button class="btn" id="btn"> Click Me!</button>
+            </section>
+        </div>
+    </div>
+    <script src="flipper.js"></script>
+</body>
+
+</html>
