@@ -11,7 +11,7 @@ let simple = () => {
         //get randomNumber between 0-4
         let randomNumber = Math.floor(Math.random() * colors.length);
         bkgr.style.backgroundColor = colors[randomNumber];
-        color.innerHTML = colors[randomNumber];
+        color.textContent = colors[randomNumber];
         color.style.color = colors[randomNumber];
     })
 }
